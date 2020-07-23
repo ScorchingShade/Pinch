@@ -15,7 +15,6 @@ Developed and maintained by Ankush Sharma
     width: calc(100%-10em);
     max-width: 60em;
     margin: 0 auto;
-    background: red;
 }
 
 .row {
@@ -24,10 +23,7 @@ Developed and maintained by Ankush Sharma
 }
 
 div[class^="col-"] {
-    background: lightgreen;
-    border: 1px solid green;
     padding: 1rem 0;
-    text-align: center;
 }
 
 $columns: 14;
@@ -37,5 +33,84 @@ $columns: 14;
     }
     .col-offset-#{$i} {
         margin-left: 100% / $columns * $i
+    }
+}
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+    width: 11.875rem;
+    height: 15rem;
+    background: linear-gradient(240deg, #f8f4f4, #d3d2d2);
+    border-radius: 5%;
+    position: relative;
+    text-transform: uppercase;
+    &:nth-child(1) {
+        .card-prime {
+            background: linear-gradient(45deg, #b066fe, #63e2ff);
+        }
+    }
+    &:nth-child(2) {
+        .card-title {
+            background: linear-gradient(45deg, #ed1c24, #fcee21);
+        }
+    }
+    &:nth-child(3) {
+        .card-title {
+            background: linear-gradient(45deg, #00ffa1, #00ffff);
+        }
+    }
+    .card-image {
+        text-align: center;
+        img {
+            position: relative;
+            width: 8.125rem;
+            top: -3.75rem;
+            z-index: 1;
+            border-radius: 50%;
+        }
+    }
+    .card-prime {
+        position: absolute;
+        right: 0;
+        bottom: 6.25rem;
+        width: 7.5rem;
+        height: 12.5rem;
+        border-radius: 1.25rem 1.25rem 0 0.125rem;
+        transform: skewY(40deg);
+        span {
+            position: absolute;
+            top: 8.125rem;
+            left: 2.5rem;
+            font-size: 1.75rem;
+            color: #fff;
+            font-weight: 700;
+            transform: skewY(-40deg);
+        }
+    }
+    .card-info {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        .card-icon {
+            font-size: 0.75rem;
+            columns: #606060;
+            text-align: left;
+            letter-spacing: 0.063rem;
+            position: absolute;
+            img {
+                padding-left: 0.625;
+                width: 2.5rem;
+                z-index: 1;
+            }
+        }
+    }
+    .card-name {
+        font-size: 0.875rem;
+        color: #606060;
+        font-weight: 600;
+        position: absolute;
+        bottom: 1.25rem;
+        left: 1.25rem;
+        max-width: 5rem;
     }
 }
