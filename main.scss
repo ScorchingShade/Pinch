@@ -11,16 +11,39 @@ Developed and maintained by Ankush Sharma
 
 **/
 
+
+/** containers **/
+
 .container {
     width: calc(100%-10em);
     max-width: 60em;
     margin: 0 auto;
 }
 
+
+/** row **/
+
 .row {
     display: flex;
     flex-wrap: wrap;
 }
+
+// Media queries for column flex grid
+// Small devices (landscape phones, 576px and up)
+@media screen and (min-width: 576px) {
+    .row {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+/** flexbox columns **/
 
 div[class^="col-"] {
     padding: 1rem 0;
@@ -29,12 +52,16 @@ div[class^="col-"] {
 $columns: 14;
 @for $i from 1 through $columns {
     .col-#{$i} {
+        flex-grow: 1;
         flex: 0 0 100% / $columns * $i*0.995;
     }
     .col-offset-#{$i} {
         margin-left: 100% / $columns * $i
     }
 }
+
+
+/** Cards **/
 
 .card {
     font-family: 'Montserrat', sans-serif;
