@@ -1,0 +1,174 @@
+/**
+***** WELCOME TO PINCH FRAMEWORK ******
+A minimal framework of css to get you started with your own projects
+
+Visit https://www.github.com/ScorchingShade/Pinch to know more
+
+For contributions and info of upcoming changes, contact me at ankushors789@gmail.com
+
+Developed and maintained by Ankush Sharma
+
+
+**/
+.container {
+  width: calc(100%-10em);
+  max-width: 60em;
+  margin: 0 auto;
+  background: red;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+div[class^="col-"] {
+  background: lightgreen;
+  border: 1px solid green;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.col-1 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 7.10714%;
+          flex: 0 0 7.10714%;
+}
+
+.col-offset-1 {
+  margin-left: 7.14286%;
+}
+
+.col-2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 14.21429%;
+          flex: 0 0 14.21429%;
+}
+
+.col-offset-2 {
+  margin-left: 14.28571%;
+}
+
+.col-3 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 21.32143%;
+          flex: 0 0 21.32143%;
+}
+
+.col-offset-3 {
+  margin-left: 21.42857%;
+}
+
+.col-4 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 28.42857%;
+          flex: 0 0 28.42857%;
+}
+
+.col-offset-4 {
+  margin-left: 28.57143%;
+}
+
+.col-5 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 35.53571%;
+          flex: 0 0 35.53571%;
+}
+
+.col-offset-5 {
+  margin-left: 35.71429%;
+}
+
+.col-6 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 42.64286%;
+          flex: 0 0 42.64286%;
+}
+
+.col-offset-6 {
+  margin-left: 42.85714%;
+}
+
+.col-7 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 49.75%;
+          flex: 0 0 49.75%;
+}
+
+.col-offset-7 {
+  margin-left: 50%;
+}
+
+.col-8 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 56.85714%;
+          flex: 0 0 56.85714%;
+}
+
+.col-offset-8 {
+  margin-left: 57.14286%;
+}
+
+.col-9 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 63.96429%;
+          flex: 0 0 63.96429%;
+}
+
+.col-offset-9 {
+  margin-left: 64.28571%;
+}
+
+.col-10 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 71.07143%;
+          flex: 0 0 71.07143%;
+}
+
+.col-offset-10 {
+  margin-left: 71.42857%;
+}
+
+.col-11 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 78.17857%;
+          flex: 0 0 78.17857%;
+}
+
+.col-offset-11 {
+  margin-left: 78.57143%;
+}
+
+.col-12 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 85.28571%;
+          flex: 0 0 85.28571%;
+}
+
+.col-offset-12 {
+  margin-left: 85.71429%;
+}
+
+.col-13 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 92.39286%;
+          flex: 0 0 92.39286%;
+}
+
+.col-offset-13 {
+  margin-left: 92.85714%;
+}
+
+.col-14 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 99.5%;
+          flex: 0 0 99.5%;
+}
+
+.col-offset-14 {
+  margin-left: 100%;
+}
+/*# sourceMappingURL=main.css.map */

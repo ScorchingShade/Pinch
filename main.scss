@@ -1,0 +1,41 @@
+/**
+***** WELCOME TO PINCH FRAMEWORK ******
+A minimal framework of css to get you started with your own projects
+
+Visit https://www.github.com/ScorchingShade/Pinch to know more
+
+For contributions and info of upcoming changes, contact me at ankushors789@gmail.com
+
+Developed and maintained by Ankush Sharma
+
+
+**/
+
+.container {
+    width: calc(100%-10em);
+    max-width: 60em;
+    margin: 0 auto;
+    background: red;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div[class^="col-"] {
+    background: lightgreen;
+    border: 1px solid green;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+$columns: 14;
+@for $i from 1 through $columns {
+    .col-#{$i} {
+        flex: 0 0 100% / $columns * $i*0.995;
+    }
+    .col-offset-#{$i} {
+        margin-left: 100% / $columns * $i
+    }
+}
