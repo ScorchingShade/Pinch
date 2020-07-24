@@ -15,6 +15,8 @@
 No need to code your own css mini-library to get-rid of hefty frameworks like bootstrap whenever starting a small project!
 <br>
 PinchX takes care of your basic web design building a beautiful simplistic design in minutes!
+<br>
+Written in SCSS/SASS, the generated css is comprehensive, simple and minimal!
 
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_main.jpg"></p>
 
@@ -150,6 +152,116 @@ The class "card-name" give the information to about the product card's descripti
 ---
 
 ## The Angel and Dracula Elements - Navbar
-PinchX provides two theme options - **Dracula** and **Angel**.<br>
+PinchX provides two theme options - **Dracula** and **Angel**.<br><br><br>
+Checkout the simplest way to build a navbar, with the PinchX Dracula and Angel themed navbar!
+
+```
+<div class="container-ex nav-dracula">
+        <header>
+            <img class="logo" src="https://cdn4.iconfinder.com/data/icons/social-icon-4/842/facebook-512.png" alt="logo">
+            <nav>
+                <ul class="nav_link">
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+
+                </ul>
+
+            </nav>
+            <a class="cta" href="#"><button class="btn-nav">Contact</button></a>
+        </header>
+
+    </div>
+```
+
+<br>
+<br>
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_navs.jpg"></p>
+<br>
+You can change the theme of the navbar using the class "nav-dracula" or "nav-angel" in the parent div.<br>
+To specify a logo use the class "logo", supports images currently. <br>
+The class "nav_link" takes care of arranging all your links in a neatly arranged manner.<br>
+Optionally you can add a navbar button using class "btn-nav" to further enhance the navbar.<br>
+<br>
+<br>
+
+## The Angel and Dracula Elements - Footer
+A goot footer must contain all the necessary contact info, links and a message form all in itself. Using this info, PinchX gives you a complete template to create a **comprehensive footer from scratch!**
+
+```
+    <div>
+        <div id="changeDiv" class="footer-angel">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h1 class="logo-text"><span>Pinch</span>Footer</h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <div class="contact">
+
+                        <span><i class="fas fa-phone"></i>&nbsp; 123-456-789</span><br>
+                        <span><i class="fas fa-envelope"></i>&nbsp; ankushors789@gmail.com</span>
+
+                    </div>
+
+                    <div class="socials">
+
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+
+                    </div>
+                </div>
+                <div class="footer-section links">
+
+                    <h2>Quick Links</h2>
+                    <br>
+                    <ul>
+                        <a href="#">
+                            <li>Events</li>
+                        </a>
+                        <a href="#">
+                            <li>Team</li>
+                        </a>
+                        <a href="#">
+                            <li>Mentors</li>
+                        </a>
+                        <a href="#">
+                            <li>Gallery</li>
+                        </a>
+                        <a href="#">
+                            <li>Terms</li>
+                        </a>
+                    </ul>
+
+                </div>
+                <div class="footer-section contact-form">
+
+                    <h2>Contact us</h2>
+                    <br>
+                    <form action="index.html" method="post">
+                        <input type="email" name="email" class="text-input contact-input disp-xs" placeholder="Your Email Address....."><br><br>
+                        <textarea name="message" class="text-input contact-input disp-xs" placeholder="Your Message...."></textarea><br><br>
+                        <button type="submit" class="btn-nav contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        Send</button>
+
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                powered by <a href="https://github.com/ScorchingShade/Pinch">ScorchingShade</a>
+
+            </div>
+        </div>
+    </div>
+```
+
+<br>
+Understanding all the elements of this footer is easy too! 
 
 
