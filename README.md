@@ -418,7 +418,7 @@ There are 5 different classes providing you a great new way to define your text!
 ```
 The classes are "disp-xl", "dis-lg", "disp-md", "disp-sm" and "disp-xs" which give enough options to diplay different kinds of text!<br>
 <br>
-<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_angel_typography.jpg"></p>
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_typography.jpg"></p>
 <br>
 
 ## Author
@@ -437,9 +437,9 @@ The classes are "disp-xl", "dis-lg", "disp-md", "disp-sm" and "disp-xs" which gi
 
 - 💬 Ask me about **React, angular, java, springboot, restapi**
 
-- 📫 How to reach me **ankushors789@gmail.com**
+- 📫 How to reach me - **ankushors789@gmail.com**
 
-- ⚡ Fun fact **I am burger connoisseur, having eaten 125 different kinds of burgers!**
+- ⚡ Fun fact **I am a burger connoisseur, having eaten 125 different kinds of burgers!**
 
 
 <p align="center">
