@@ -3,18 +3,29 @@
 <head>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
 
+    <script>
+        function myFunction() {
+            if (document.getElementById("changeDiv").className === "footer-dracula")
+                document.getElementById("changeDiv").className = "footer-angel";
+            else
+                document.getElementById("changeDiv").className = "footer-dracula"
+        }
+    </script>
 
     <h1 class="highlight disp-lg" style="text-align: center;">PinchX</h1>
     <p class="disp-md" style="text-align: center;">A minimalistic css approach</p>
     <h2></h2>
 
     <div class="container highlight disp-sm" style="text-align: center;">
-        <p>Welcome to the Pinchx Framework by Ankush Sharma</p>
+        <p>Welcome to the Pinchx Library by Ankush Sharma</p>
         <p>We often rely on heavy and hefty css frameworks when often prototyping our apps for web.</p>
         <p>But, we rarely need all that heavy code and it can often seem daunting and confusing!</p>
     </div>
@@ -276,6 +287,95 @@
         </header>
 
     </div>
+
+    <br>
+    <hr>
+
+    <p class="disp-md" style="text-align: center;">Footer</p>
+    <p class="disp-sm" style="text-align: center;">Simple and elegant with themes that match your Navbar!</p>
+
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6"></div>
+            <div class="col-4">
+                <button onClick="myFunction()" class="btn-nav" style="color: white;">Change Theme of Footer</button>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div id="changeDiv" class="footer-angel">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h1 class="logo-text"><span>Pinch</span>Footer</h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut semper magna, in iaculis arcu. Nunc mollis metus nibh, vel egestas ligula facilisis vehicula.
+                    </p>
+                    <div class="contact">
+
+                        <span><i class="fas fa-phone"></i>&nbsp; 123-456-789</span><br>
+                        <span><i class="fas fa-envelope"></i>&nbsp; ankushors789@gmail.com</span>
+
+                    </div>
+
+                    <div class="socials">
+
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+
+                    </div>
+                </div>
+                <div class="footer-section links">
+
+                    <h2>Quick Links</h2>
+                    <br>
+                    <ul>
+                        <a href="#">
+                            <li>Events</li>
+                        </a>
+                        <a href="#">
+                            <li>Team</li>
+                        </a>
+                        <a href="#">
+                            <li>Mentors</li>
+                        </a>
+                        <a href="#">
+                            <li>Gallery</li>
+                        </a>
+                        <a href="#">
+                            <li>Terms</li>
+                        </a>
+                    </ul>
+
+                </div>
+                <div class="footer-section contact-form">
+
+                    <h2>Contact us</h2>
+                    <br>
+                    <form action="index.html" method="post">
+                        <input type="email" name="email" class="text-input contact-input disp-xs" placeholder="Your Email Address....."><br><br>
+                        <textarea name="message" class="text-input contact-input disp-xs" placeholder="Your Message...."></textarea><br><br>
+                        <button type="submit" class="btn-nav contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        Send</button>
+
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                powered by <a href="https://github.com/ScorchingShade/Pinch">ScorchingShade</a>
+
+            </div>
+        </div>
+    </div>
+
 
 </body>
 

@@ -467,7 +467,7 @@ button {
   z-index: 1;
 }
 
-.btn-nav :hover {
+.btn-nav:hover {
   background-color: rgba(241, 237, 13, 0.8);
 }
 
@@ -537,6 +537,219 @@ header {
 
 .nav-angel .nav_link li a:hover {
   color: #0088a9;
+}
+
+/** footer **/
+.footer-dracula {
+  background-color: #24252A;
+  color: #edf0f1;
+  padding: 3em;
+  margin-top: auto;
+  position: relative;
+}
+
+.footer-dracula .footer-bottom {
+  background: #343a40;
+  color: #686868;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+.footer-dracula .footer-content {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-dracula .footer-content .footer-section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 25px;
+}
+
+.footer-dracula .footer-content .h1,
+.footer-dracula .footer-content h2 {
+  color: white;
+}
+
+.footer-dracula .footer-content .about h1 span {
+  color: #05f7ff;
+}
+
+.footer-dracula .footer-content .about .contact span {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.footer-dracula .footer-content .about .socials a {
+  border: 1px solid gray;
+  width: 41px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  border-radius: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer-dracula .footer-content .about .socials a:hover {
+  border: 1px solid white;
+  color: white;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer-dracula .footer-content .links ul a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer-dracula .footer-content .links ul a:hover {
+  color: white;
+  margin-left: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer-dracula .footer-content .contact-form .contact-input {
+  background: #272727;
+  color: #bebdbd;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+  padding: .9rem 1.4rem;
+  border: none;
+}
+
+.footer-dracula .footer-content .contact-form .contact-input:focus {
+  background: #1a1a1a;
+}
+
+.footer-dracula .footer-content .contact-form .contact-btn {
+  float: right;
+}
+
+.footer-dracula .footer-content .text-input {
+  width: 32rem;
+  padding: 3rem;
+}
+
+.footer-angel {
+  background-color: #e6e9ed;
+  color: black;
+  padding: 3em;
+  margin-top: auto;
+  position: relative;
+}
+
+.footer-angel .footer-bottom {
+  background: #989a9c;
+  color: #110f0f;
+  text-align: center;
+  height: 30px;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  padding-top: 20px;
+}
+
+.footer-angel .footer-content {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-angel .footer-content .footer-section {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 25px;
+}
+
+.footer-angel .footer-content .h1,
+.footer-angel .footer-content h2 {
+  color: black;
+}
+
+.footer-angel .footer-content .about h1 span {
+  color: #0571ff;
+}
+
+.footer-angel .footer-content .about .contact span {
+  display: block;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+}
+
+.footer-angel .footer-content .about .socials a {
+  border: 1px solid gray;
+  width: 41px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3em;
+  border-radius: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer-angel .footer-content .about .socials a:hover {
+  border: 1px solid black;
+  color: black;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer-angel .footer-content .links ul a {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer-angel .footer-content .links ul a:hover {
+  color: black;
+  margin-left: 5px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.footer-angel .footer-content .contact-form .contact-input {
+  background: #d3cece;
+  color: #746e6e;
+  margin-bottom: 10px;
+  line-height: 1.5rem;
+  padding: .9rem 1.4rem;
+  border: none;
+}
+
+.footer-angel .footer-content .contact-form .contact-input:focus {
+  background: #ccc6c6;
+}
+
+.footer-angel .footer-content .contact-form .contact-btn {
+  float: right;
+}
+
+.footer-angel .footer-content .text-input {
+  width: 32rem;
+  padding: 3rem;
 }
 
 /** Typography **/
