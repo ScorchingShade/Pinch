@@ -367,7 +367,21 @@ These when used in a form like the given example can help you create the perfect
 <br>
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_angel_footer.jpg"></p>
 <br>
+<br>
 
-
-
+## Futuristic Typography, a new way to write
+There are 5 different classes providing you a great new way to define your text! Simple and futuristic, the typography is sure to give a pleasing appeal to your page!
+<br>
+<br>
+```
+        <p class="disp-xl">Extra Large Text Display</p>
+        <p class="disp-lg">Large Text Display</p>
+        <p class="disp-md">Medium Text Display</p>
+        <p class="disp-sm">Small Text Display</p>
+        <p class="disp-xs">Extra Small Text Display</p>
+```
+The classes are "disp-xl", "dis-lg", "disp-md", "disp-sm" and "disp-xs" which give enough options to diplay different kinds of text!<br>
+<br>
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_angel_typography.jpg"></p>
+<br>
 
