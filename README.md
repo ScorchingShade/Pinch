@@ -1,2 +1,2 @@
 # Pinch
-A Minimalistic css framework for quickly bootstrapping your project
+A Minimalistic css Library for quickly bootstrapping your project
