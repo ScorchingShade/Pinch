@@ -263,5 +263,111 @@ A goot footer must contain all the necessary contact info, links and a message f
 
 <br>
 Understanding all the elements of this footer is easy too! 
+<br>
+The theme of the footer can be controlled using the class "footer-angel" or "footer-dracula".<br>
+The footer has two main areas. **The Bottom area** and **The Content Area**.<br>
+You would want to start off by defining these simply using the classes "footer-bottom" and "footer-content" in two separate divs.<br>
+The bottom area can simply include links, copyright info etc for the developer/author.<br>
+The content area is where everything else goes. For a basic design, you can leave this as is specifying some footer text.<br>
+<br>
+
+The content area is further divided into three horizontal grids of different classes and types of data.
+- Section about
+- Section links
+- Section contact form
+<br>
+<br>
+
+**Section about** - This section contains info like social links, email, contact info, description, title etc. You can use classes as shown in the example above to set these.The About section is aligned to the left and is perfect to showcase import links for contact.<br>
+```
+                 <div class="footer-section about">
+                    <h1 class="logo-text"><span>Pinch</span>Footer</h1>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                    <div class="contact">
+
+                        <span><i class="fas fa-phone"></i>&nbsp; 123-456-789</span><br>
+                        <span><i class="fas fa-envelope"></i>&nbsp; ankushors789@gmail.com</span>
+
+                  </div>
+                  <div class="socials">
+
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-youtube"></i></a>
+
+                    </div>
+                </div>
+```
+<br>
+The class "about" with class "footer-section" creates the about section. Use the above shown h1 tag styling to generate a cool Title for footer in about.<br>
+The class "contact" with class "footer-section" creates a styling for your fab-icon spans of contact and email as shown.<br>
+The class "socials" allows you to set engaging icons using font-awesome.<br><br>
+
+
+**Section links** -
+As the name suggests this section is all about providing important links to your website! <br>
+```
+         <div class="footer-section links">
+
+                    <h2>Quick Links</h2>
+                    <br>
+                    <ul>
+                        <a href="#">
+                            <li>Events</li>
+                        </a>
+                        <a href="#">
+                            <li>Team</li>
+                        </a>
+                        <a href="#">
+                            <li>Mentors</li>
+                        </a>
+                        <a href="#">
+                            <li>Gallery</li>
+                        </a>
+                        <a href="#">
+                            <li>Terms</li>
+                        </a>
+                    </ul>
+
+                </div>
+```
+<br>
+The class "links" along with class "footer-section" takes care of all your links. That's it! Its all you need! Use it as shown in the example above!<br>
+<br>
+
+**Section contact form** -
+This section is aligned to the extreme right and provides a simple form to send a message to the author/developer.<br>
+<br>
+```
+ <div class="footer-section contact-form">
+
+                    <h2>Contact us</h2>
+                    <br>
+                    <form action="index.html" method="post">
+                        <input type="email" name="email" class="text-input contact-input disp-xs" placeholder="Your Email Address....."><br><br>
+                        <textarea name="message" class="text-input contact-input disp-xs" placeholder="Your Message...."></textarea><br><br>
+                        <button type="submit" class="btn-nav contact-btn">
+                        <i class="fas fa-envelope"></i>
+                        Send</button>
+
+                    </form>
+
+                </div>
+```
+The key classes to note here are "contact-form", "contact-input" and "text-input".<br>
+These when used in a form like the given example can help you create the perfect dynamic form for your footer!<br><br>
+<br>
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_dracula_footer.jpg"></p>
+<br>
+<br>
+<br>
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_angel_footer.jpg"></p>
+<br>
+
+
 
 
