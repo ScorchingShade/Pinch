@@ -28,6 +28,11 @@ Live example [here](https://scorchingshade.github.io/Pinch/).
 <br>
 <br>
 
+## Upcoming and bugs
+Responsive support for navbar and footer coming soon. The site is best viewed in Google-Chrome on pc.
+<br>
+<br>
+
 ## Getting Started
 Just clone the repo and copy the main.css file in your project folder.<br>
 Further use the meta linking to link the stylesheet to your project as - <br>
