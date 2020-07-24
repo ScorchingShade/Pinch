@@ -19,6 +19,11 @@ PinchX takes care of your basic web design building a beautiful simplistic desig
 Written in SCSS/SASS, the generated css is comprehensive, simple and minimal!
 
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_main.jpg"></p>
+<br>
+<br>
+
+Live example [here](https://scorchingshade.github.io/Pinch/).
+
 
 <br>
 <br>
