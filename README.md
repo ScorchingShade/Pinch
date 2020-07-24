@@ -11,7 +11,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/ScorchingShade/Pinch.svg)](https://github.com/ScorchingShade/Pinch/issues)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
-## Basic Overview
+## Basic Overview - Version 0.01
 No need to code your own css mini-library to get-rid of hefty frameworks like bootstrap whenever starting a small project!
 <br>
 PinchX takes care of your basic web design building a beautiful simplistic design in minutes!
@@ -413,7 +413,7 @@ The classes are "disp-xl", "dis-lg", "disp-md", "disp-sm" and "disp-xs" which gi
 
 ## Author
 <h1 align="center">Hi 👋, I'm Ankush</h1>
-<h3 align="center">A geek , a coder, an explorer</h3>
+<h3 align="center">A geek , a coder, a boxer, an explorer</h3>
 
 - 🔭 I’m currently working on [PinchX framework](https://github.com/ScorchingShade/Pinch)
 
