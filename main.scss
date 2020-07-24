@@ -261,7 +261,6 @@ button {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: #edf0f1;
     text-decoration: none;
 }
 
@@ -315,6 +314,7 @@ header {
         }
         li a {
             transition: all 0.3s ease 0s;
+            color: #edf0f1;
         }
         li a:hover {
             color: #0088a9;
@@ -366,4 +366,9 @@ header {
 .disp-sm {
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
     font-size: 1.5rem;
+}
+
+.disp-xs {
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-size: 1rem;
 }
