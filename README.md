@@ -20,6 +20,32 @@ Written in SCSS/SASS, the generated css is comprehensive, simple and minimal!
 
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_main.jpg"></p>
 
+<br>
+<br>
+
+## Getting Started
+Just clone the repo and copy the main.css file in your project folder.<br>
+Further use the meta linking to link the stylesheet to your project as - <br>
+
+```
+<link rel="stylesheet" href="main.css">
+```
+
+<br>
+To use the complete functionality of PinchX, it is recommended to also load font-awesome-icons in your project.<br>
+
+```
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
+```
+<br>
+<br>
+<h1 align="center"> Diving into PinchX </h1>
+<br>
+<br>
+
+
 ### An All New Grid System
 PinchX introduces a 15 way grid sytem to have greater flexibility when designing your web-page
 <br>
@@ -385,3 +411,54 @@ The classes are "disp-xl", "dis-lg", "disp-md", "disp-sm" and "disp-xs" which gi
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_angel_typography.jpg"></p>
 <br>
 
+## Author
+<h1 align="center">Hi 👋, I'm Ankush</h1>
+<h3 align="center">A geek , a coder, an explorer</h3>
+
+- 🔭 I’m currently working on [PinchX framework](https://github.com/ScorchingShade/Pinch)
+
+- 👯 I’m looking to collaborate on [React](https://github.com/facebook/react)
+
+- 🤔 I’m looking for help with [Pinch framework](https://github.com/ScorchingShade/Pinch)
+
+- 👨‍💻 All of my projects are available at [https://github.com/ScorchingShade](https://github.com/ScorchingShade)
+
+- 📝 I regulary write articles on [https://medium.com/@ankushsharma_70830](https://medium.com/@ankushsharma_70830)
+
+- 💬 Ask me about **React, angular, java, springboot, restapi**
+
+- 📫 How to reach me **ankushors789@gmail.com**
+
+- ⚡ Fun fact **I am burger connoisseur, having eaten 125 different kinds of burgers!**
+
+
+<p align="center">
+<a href="https://linkedin.com/in/ankush-sharma-a9b24a37" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="ankush-sharma-a9b24a37" height="20" width="20" /></a>
+<a href="https://fb.com/kushuas" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/facebook.svg" alt="kushuas" height="20" width="20" /></a>
+<a href="https://instagram.com/the_sitting_traveller" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="the_sitting_traveller" height="20" width="20" /></a>
+<a href="https://medium.com/@ankushsharma_70830" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/medium.svg" alt="@ankushsharma_70830" height="20" width="20" /></a>
+</p>
+
+
+
+## License
+```
+Copyright (C) 2020 Ankush Sharma @ AINC
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the MIT License as it is published.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+MIT License for more details.
+
+You should have received a copy of the Mit License
+along with this program.  
+```
+
+<br>
+
+
+## Shout-out
+A Huge shout out to Kevin Powell for all his amazing SCSS tutorials. Do check him out on YouTube!
