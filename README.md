@@ -453,7 +453,7 @@ The classes are "disp-xl", "dis-lg", "disp-md", "disp-sm" and "disp-xs" which gi
 
 ## License
 ```
-Copyright (C) 2020 Ankush Sharma @ AINC
+Copyright (C) 2020 Ankush Sharma @ AINC, creating code
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the MIT License as it is published.
