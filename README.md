@@ -10,7 +10,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/ScorchingShade/Pinch.svg)](https://github.com/ScorchingShade/Pinch/issues)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
-## Basic Overview - Version 0.01
+## Basic Overview - Version 1.01
 No need to code your own css mini-library to get-rid of hefty frameworks like bootstrap whenever starting a small project!
 <br>
 PinchX takes care of your basic web design building a beautiful simplistic design in minutes!
@@ -219,6 +219,69 @@ The class "nav_link" takes care of arranging all your links in a neatly arranged
 Optionally you can add a navbar button using class "btn-nav" to further enhance the navbar.<br>
 <br>
 <br>
+Now with version update 1.01, navbar supports responsive behaviour as well!
+<br>
+The dropdown is completely managed using css with no js overhead!
+
+<br>
+<br>
+Dracula
+
+```
+        <div>
+            <input type="checkbox" id="check" value="checked">
+            <img class="logo_responsive" src="https://cdn4.iconfinder.com/data/icons/social-icon-4/842/facebook-512.png" alt="logo">
+            <label class="checkbtn" for="check">
+            <i class="fa fa-bars" style="background-color: white;"></i>
+            </label>
+            <header class="responsive-head">
+                <nav>
+                    <ul class="nav-responsive">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+```
+<br>
+<br>
+
+<br>
+Angel
+
+```
+        <div>
+            <input type="checkbox" id="check-angel" value="checked">
+            <img class="logo_responsive" src="https://cdn4.iconfinder.com/data/icons/social-icon-4/842/facebook-512.png" alt="logo">
+            <label class="checkbtn" for="check-angel">
+            <i class="fa fa-bars"></i>
+            </label>
+            <header class="responsive-head-angel">
+                <nav>
+                    <ul class="nav-responsive">
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+```
+<br>
+
+
+<br>
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_responsive_nav_dracula.jpg"></p>
+<br>
+<br>
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_responsive_nav_dracula.jpg"></p>
+<br>
+
+
 
 ## The Angel and Dracula Elements - Footer
 A goot footer must contain all the necessary contact info, links and a message form all in itself. Using this info, PinchX gives you a complete template to create a **comprehensive footer from scratch!**
