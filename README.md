@@ -278,7 +278,7 @@ Angel
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_responsive_nav_dracula.jpg"></p>
 <br>
 <br>
-<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_responsive_nav_dracula.jpg"></p>
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_responsive_nav_angel.jpg"></p>
 <br>
 
 
