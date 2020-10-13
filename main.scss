@@ -294,6 +294,11 @@ header {
     padding: 20px 10%;
 }
 
+//CSS hack for dropdown *** No JS Required ***
+#check {
+    display: none;
+}
+
 
 /**logo**/
 
@@ -302,8 +307,51 @@ header {
     width: 7.5%;
 }
 
+.logo_responsive {
+    display: none;
+    cursor: pointer;
+    width: 10.5%;
+    padding: 2%;
+}
+
 
 /** nav **/
+
+// Dark Theme Nav
+.bar {
+    background-color: white;
+    float: right;
+    font-size: 25px;
+}
+
+.checkbtn {
+    float: right;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-responsive {
+    list-style: none;
+    display: none;
+    ul {
+        position: fixed;
+    }
+    li {
+        display: block;
+        text-align: center;
+        padding: 10px 20px;
+    }
+    li a {
+        transition: all 0.3s ease 0s;
+        color: #edf0f1;
+    }
+    li a:hover {
+        color: #0088a9;
+    }
+}
 
 .nav-dracula {
     background-color: #24252A;
@@ -323,6 +371,75 @@ header {
     }
 }
 
+// for mobile devices
+@media(max-width:858px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-nav {
+        display: none;
+        padding: 9px 25px;
+        background-color: rgb(29, 73, 167);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        z-index: 1;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .nav-dracula {
+        background-color: #24252A;
+        align-content: center;
+        .nav_link {
+            list-style: none;
+            display: none;
+        }
+        .nav-responsive {
+            list-style: none;
+            display: block;
+            li {
+                display: block;
+                text-align: center;
+                padding: 10px 20px;
+            }
+            li a {
+                transition: all 0.3s ease 0s;
+                color: #edf0f1;
+            }
+            li a:hover {
+                color: #0088a9;
+            }
+        }
+    }
+    .logo {
+        display: none;
+        cursor: pointer;
+        width: 7.5%;
+    }
+    .logo_responsive {
+        display: inline-block;
+        cursor: pointer;
+        width: 10.5%;
+        padding: 2%;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    #check {
+        display: none;
+        float: right;
+        z-index: 100;
+        margin-top: 38px;
+    }
+    #check:checked~.responsive-head {
+        display: none;
+    }
+}
+
+// Light theme nav
 .nav-angel {
     background-color: #e6e9ed;
     .nav_link {
@@ -339,6 +456,79 @@ header {
         li a:hover {
             color: #0088a9;
         }
+    }
+}
+
+// Check hack for dropdown , ** No js needed **
+#check-angel {
+    display: none;
+}
+
+//for light theme
+@media(max-width:858px) {
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+    .btn-nav {
+        display: none;
+        padding: 9px 25px;
+        background-color: rgb(29, 73, 167);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+        z-index: 1;
+    }
+    .checkbtn {
+        display: block;
+    }
+    .nav-angel {
+        background-color: #e6e9ed;
+        align-content: center;
+        .nav_link {
+            list-style: none;
+            display: none;
+        }
+        .nav-responsive {
+            list-style: none;
+            display: block;
+            li {
+                display: block;
+                text-align: center;
+                padding: 10px 20px;
+            }
+            li a {
+                transition: all 0.3s ease 0s;
+                color: black;
+            }
+            li a:hover {
+                color: #0088a9;
+            }
+        }
+    }
+    .logo {
+        display: none;
+        cursor: pointer;
+        width: 7.5%;
+    }
+    .logo_responsive {
+        display: inline-block;
+        cursor: pointer;
+        width: 10.5%;
+        padding: 2%;
+    }
+    #check:checked~ul {
+        left: 0;
+    }
+    #check-angel {
+        display: none;
+        float: right;
+        z-index: 100;
+        margin-top: 38px;
+    }
+    #check-angel:checked~.responsive-head-angel {
+        display: none;
     }
 }
 
@@ -545,4 +735,9 @@ header {
 .disp-xs {
     font-family: Futura, Trebuchet MS, Arial, sans-serif;
     font-size: 1rem;
+}
+
+.toolbar-bottom {
+    bottom: 0;
+    position: absolute;
 }
