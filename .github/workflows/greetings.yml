@@ -1,0 +1,13 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Hello everyone! Welcome to PinchX! Please Make sure to read the contributing.md file before contributing'' first issue'
+        pr-message: 'Awesome! This is your first PR! Please wait till the review process is complete and then you will be officially a part of the PinchX family!'' first pr'
