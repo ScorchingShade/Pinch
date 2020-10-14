@@ -957,22 +957,63 @@ header {
   padding: 3rem;
 }
 
-/* madmax footer */
+/** Typography **/
+.highlight {
+  padding: 1.1rem;
+}
 
-.footer__container {  
+.disp-xl {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 4.5rem;
+}
+
+.disp-lg {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 3.5rem;
+}
+
+.disp-md {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 2.5rem;
+}
+
+.disp-sm {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 1.5rem;
+}
+
+.disp-xs {
+  font-family: Futura, Trebuchet MS, Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.toolbar-bottom {
+  bottom: 0;
+  position: absolute;
+}
+
+.footer__container {
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
 
 .footer__change-theme {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
 }
-  
+
 .footer__change-title {
   font-family: Futura, Trebuchet MS, Arial, sans-serif;
   font-size: 2.5rem;
@@ -1002,8 +1043,12 @@ header {
 }
 
 .footer__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 50px;
 }
 
@@ -1041,22 +1086,22 @@ header {
   text-align: center;
 }
 
-
 .footer__sublist-link {
   font-size: 1.5em;
 }
 
-.footer__container .footer__items .footer__item .footer__item-list>li>.footer__item-link {
-	line-height: 19px;
-	margin-bottom: 15px;
-	/* color: #505050; */
+.footer__container .footer__items .footer__item .footer__item-list > li > .footer__item-link {
+  line-height: 19px;
+  margin-bottom: 15px;
+  /* color: #505050; */
 }
 
 .footer__item-contact {
   width: 600px;
 }
 
-.footer__item-form-email, .footer__item-form-msg {
+.footer__item-form-email,
+.footer__item-form-msg {
   background: #d3cece;
   color: #746e6e;
   margin-bottom: 20px;
@@ -1086,15 +1131,18 @@ header {
 }
 
 .footer__dark {
-	background-color: #24252A;
+  background-color: #24252A;
   color: #fff;
 }
 
-.footer__dark a, .footer__dark .footer__item-link, .footer__item-form-submit {
+.footer__dark a,
+.footer__dark .footer__item-link,
+.footer__item-form-submit {
   color: #fff;
 }
 
-.footer__dark .footer__item-form-email, .footer__dark .footer__item-form-msg {
+.footer__dark .footer__item-form-email,
+.footer__dark .footer__item-form-msg {
   background-color: #3e3c3c8a;
 }
 
@@ -1107,54 +1155,18 @@ header {
 @media (max-width: 900px) {
   .footer__item-contact {
     width: 300px;
-  }  
+  }
 }
 
 @media (max-width: 840px) {
   .footer__items {
-		flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
-
   .footer__item-contact {
     width: 100%;
   }
 }
 
 /* madmax footer */
-
-
-/** Typography **/
-.highlight {
-  padding: 1.1rem;
-}
-
-.disp-xl {
-  font-family: Futura, Trebuchet MS, Arial, sans-serif;
-  font-size: 4.5rem;
-}
-
-.disp-lg {
-  font-family: Futura, Trebuchet MS, Arial, sans-serif;
-  font-size: 3.5rem;
-}
-
-.disp-md {
-  font-family: Futura, Trebuchet MS, Arial, sans-serif;
-  font-size: 2.5rem;
-}
-
-.disp-sm {
-  font-family: Futura, Trebuchet MS, Arial, sans-serif;
-  font-size: 1.5rem;
-}
-
-.disp-xs {
-  font-family: Futura, Trebuchet MS, Arial, sans-serif;
-  font-size: 1rem;
-}
-
-.toolbar-bottom {
-  bottom: 0;
-  position: absolute;
-}
 /*# sourceMappingURL=main.css.map */
