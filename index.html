@@ -14,14 +14,7 @@
 
 <body>
 
-    <script>
-        function myFunction() {
-            if (document.getElementById("changeDiv").className === "footer-dracula")
-                document.getElementById("changeDiv").className = "footer-angel";
-            else
-                document.getElementById("changeDiv").className = "footer-dracula"
-        }
-    </script>
+
 
     <h1 class="highlight disp-lg" style="text-align: center;">PinchX</h1>
     <p class="disp-md" style="text-align: center;">A minimalistic css approach</p>
@@ -345,94 +338,74 @@
     <br>
     <br>
     <hr>
-
-
-    <p class="disp-md" style="text-align: center;">Footer</p>
-    <p class="disp-sm" style="text-align: center;">Simple and elegant with themes that match your Navbar!</p>
-
-    <br>
-
-    <div class="container">
-        <div class="row">
-            <div class="col-6"></div>
-            <div class="col-4">
-                <button onClick="myFunction()" class="btn-nav" style="color: white;">Change Theme of Footer</button>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__change-theme">
+                <h1 class="footer__change-title">Footer</h1>
+                <p class="footer__change-text">Simple and elegant with themes that match your Navbar!</p>
+                <button class="footer__change-btn">Change Theme of Footer</button>
             </div>
         </div>
-    </div>
-
-    <div>
-        <div id="changeDiv" class="footer-angel">
-            <div class="footer-content">
-                <div class="footer-section about">
-                    <h1 class="logo-text"><span>Pinch</span>Footer</h1>
-
-                    <p>
+        <div class="footer__container">
+            <div class="footer__items">
+                <div class="footer__item footer__item-about">
+                    <h2 class="footer__item-title"><span class="footer__item-subtitle">Pinch</span>Footer</h2>
+                    <p class="footer__item-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut semper magna, in iaculis arcu. Nunc mollis metus nibh, vel egestas ligula facilisis vehicula.
                     </p>
-                    <div class="contact">
-
-                        <span><i class="fas fa-phone"></i>&nbsp; 123-456-789</span><br>
-                        <span><i class="fas fa-envelope"></i>&nbsp; ankushors789@gmail.com</span>
-
-                    </div>
-
-                    <div class="socials">
-
-                        <a href=""><i class="fab fa-facebook"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-youtube"></i></a>
-
-                    </div>
+                    <ul class="footer__list">
+                        <li><a class="footer_list-link" href="tel:123-456-789"><i class="fas fa-phone"></i> 123-456-789</a></li>
+                        <li><a class="footer_list-link" href="mailto:ankushors789@gmail.com"><i class="fas fa-envelope"></i> ankushors789@gmail.com</a></li>
+                        <li class="footer_list-link">
+                            <ul class="footer__list footer__sublist">
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </li>
+                    </ul>    
                 </div>
-                <div class="footer-section links">
-
-                    <h2>Quick Links</h2>
-                    <br>
-                    <ul>
-                        <a href="#">
-                            <li>Events</li>
-                        </a>
-                        <a href="#">
-                            <li>Team</li>
-                        </a>
-                        <a href="#">
-                            <li>Mentors</li>
-                        </a>
-                        <a href="#">
-                            <li>Gallery</li>
-                        </a>
-                        <a href="#">
-                            <li>Terms</li>
-                        </a>
+                <div class="footer__item footer__item-links">
+                    <h2 class="footer__item-title">Quick Links</h2>
+                    <ul class="footer__item-list">
+                        <li><a class="footer__item-link" href="#">Events</a></li>
+                        <li><a class="footer__item-link" href="#">Team</a></li>
+                        <li><a class="footer__item-link" href="#">Mentors</a></li>
+                        <li><a class="footer__item-link" href="#">Gallery</a></li>
+                        <li><a class="footer__item-link" href="#">Terms</a></li>
                     </ul>
-
                 </div>
-                <div class="footer-section contact-form">
-
-                    <h2>Contact us</h2>
-                    <br>
-                    <form action="index.html" method="post">
-                        <input type="email" name="email" class="text-input contact-input disp-xs" placeholder="Your Email Address....."><br><br>
-                        <textarea name="message" class="text-input contact-input disp-xs" placeholder="Your Message...."></textarea><br><br>
-                        <button type="submit" class="btn-nav contact-btn">
-                            <i class="fas fa-envelope"></i>
-                            Send</button>
-
-                    </form>
-
+                <div class="footer__item footer__item-contact">
+                    <h2 class="footer__item-title">Contact us</h2>
+                        <form class="footer__item-form" action="index.html" method="post">
+                            <input class="footer__item-form-email" type="email" name="email" placeholder="Your Email Address....">
+                            <textarea class="footer__item-form-msg" name="message" placeholder="Your Message...."></textarea>
+                            <button class="footer__item-form-submit" type="submit"><i class="fas fa-envelope"></i> Send</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-
-            <div class="footer-bottom">
-                powered by <a href="https://github.com/ScorchingShade/Pinch">ScorchingShade</a>
-
             </div>
         </div>
-    </div>
+        <div class="footer__container footer__copy">
+            <p>powered by <a href="https://github.com/ScorchingShade/Pinch">ScorchingShade</a></p>
+        </div>
+    </footer>
 
+    <script>
+        const changeBtnTheme = document.querySelector('.footer__change-btn');
+        const footer = document.querySelector('.footer');
 
+        const changeTheme = () => footer.classList.toggle("footer__dark");
+
+        const init = () => {
+            changeBtnTheme.addEventListener("click", changeTheme);
+        }
+
+        window.onload = function() {
+            init();
+        }
+    </script>
 </body>
 
 </html>
