@@ -10,7 +10,9 @@
 [![GitHub Issues](https://img.shields.io/github/issues/ScorchingShade/Pinch.svg)](https://github.com/ScorchingShade/Pinch/issues)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
-## Basic Overview - Version 1.01
+## Basic Overview - Version 1.02
+- Update -> Footer is now Responsive
+<br>
 No need to code your own css mini-library to get-rid of hefty frameworks like bootstrap whenever starting a small project!
 <br>
 PinchX takes care of your basic web design building a beautiful simplistic design in minutes!
