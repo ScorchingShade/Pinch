@@ -346,7 +346,7 @@ A good footer contains all the necessary contact info, social media links, and o
 ```
 <br>
 
-Understanding the **footer** elements
+### Understanding the footer elements
 
 The theme of the footer can be switched using the **Change Theme of Footer** button. The code for the button is `<button class="footer__change-btn">`. Note the differences in the 2 themes in the screenshots below:<br>
 
@@ -369,7 +369,7 @@ Note that all 3 columns are defined by `footer_item` class.
 <br>
 <br>
 
-**About section**
+### About section
 ```
 <div class="footer__item footer__item-about">
     <h2 class="footer__item-title"><span class="footer__item-subtitle">Pinch</span>Footer</h2>
@@ -395,12 +395,12 @@ Note that all 3 columns are defined by `footer_item` class.
 
 The **About** section is defined by the class `footer__item-about`.<br>
 The paragraph element with the class `footer__item-text` contains the website description.<br>
-The unordered list with the class `footer__list` contains the phone number and email info both defined by the `footer_list-link` classes.<br>
+The unordered list with the class `footer__list` contains the phone number and email info. Both items are defined by the `footer_list-link` classes.<br>
 The unordered list with the class `footer__sublist` is nested inside the previous list, and contains the links for Facebook, Instagram, Twitter, and YouTube. Each item has a class of `footer__sublist-link`.
 
 <br><br>
 
-**Quick Links section**
+### Quick Links section
 
 ```
 <div class="footer__item footer__item-links">
@@ -420,7 +420,7 @@ The **Quick Links** section is the middle column contained inside the `footer__i
 
 <br><br>
 
-**Contact Us section**
+### Contact Us section
 
 ```
                 <div class="footer__item footer__item-contact">
