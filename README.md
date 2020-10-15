@@ -286,180 +286,137 @@ Angel
 
 
 ## The Angel and Dracula Elements - Footer
-A goot footer must contain all the necessary contact info, links and a message form all in itself. Using this info, PinchX gives you a complete template to create a **comprehensive footer from scratch!**
+A good footer contains all the necessary contact info, social media links, and oftentimes a message form. PinchX provides you with a complete template to create a **comprehensive footer from scratch.**
 
 ```
-    <div>
-        <div id="changeDiv" class="footer-angel">
-            <div class="footer-content">
-                <div class="footer-section about">
-                    <h1 class="logo-text"><span>Pinch</span>Footer</h1>
+    <div class="footer__change-theme">
+        <h1 class="footer__change-title">Footer</h1>
+        <p class="footer__change-text">Simple and elegant with themes that match your Navbar!</p>
+        <button class="footer__change-btn">Change Theme of Footer</button>
+    </div>
+    <footer class="footer">
+        <div class="footer__container">
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </div>
+        <div class="footer__container">
+            <div class="footer__items">
+                <div class="footer__item footer__item-about">
+                    <h2 class="footer__item-title"><span class="footer__item-subtitle">Pinch</span>Footer</h2>
+                    <p class="footer__item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut semper magna, in iaculis arcu. Nunc mollis metus nibh, vel egestas ligula facilisis vehicula.
                     </p>
-                    <div class="contact">
-
-                        <span><i class="fas fa-phone"></i>&nbsp; 123-456-789</span><br>
-                        <span><i class="fas fa-envelope"></i>&nbsp; ankushors789@gmail.com</span>
-
-                    </div>
-
-                    <div class="socials">
-
-                        <a href=""><i class="fab fa-facebook"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-youtube"></i></a>
-
-                    </div>
-                </div>
-                <div class="footer-section links">
-
-                    <h2>Quick Links</h2>
-                    <br>
-                    <ul>
-                        <a href="#">
-                            <li>Events</li>
-                        </a>
-                        <a href="#">
-                            <li>Team</li>
-                        </a>
-                        <a href="#">
-                            <li>Mentors</li>
-                        </a>
-                        <a href="#">
-                            <li>Gallery</li>
-                        </a>
-                        <a href="#">
-                            <li>Terms</li>
-                        </a>
+                    <ul class="footer__list">
+                        <li><a class="footer_list-link" href="tel:123-456-789"><i class="fas fa-phone"></i> 123-456-789</a></li>
+                        <li><a class="footer_list-link" href="mailto:ankushors789@gmail.com"><i class="fas fa-envelope"></i> ankushors789@gmail.com</a></li>
+                        <li class="footer_list-link">
+                            <ul class="footer__list footer__sublist">
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </li>
                     </ul>
-
                 </div>
-                <div class="footer-section contact-form">
-
-                    <h2>Contact us</h2>
-                    <br>
-                    <form action="index.html" method="post">
-                        <input type="email" name="email" class="text-input contact-input disp-xs" placeholder="Your Email Address....."><br><br>
-                        <textarea name="message" class="text-input contact-input disp-xs" placeholder="Your Message...."></textarea><br><br>
-                        <button type="submit" class="btn-nav contact-btn">
-                        <i class="fas fa-envelope"></i>
-                        Send</button>
-
+                <div class="footer__item footer__item-links">
+                    <h2 class="footer__item-title">Quick Links</h2>
+                    <ul class="footer__item-list">
+                        <li><a class="footer__item-link" href="#">Events</a></li>
+                        <li><a class="footer__item-link" href="#">Team</a></li>
+                        <li><a class="footer__item-link" href="#">Mentors</a></li>
+                        <li><a class="footer__item-link" href="#">Gallery</a></li>
+                        <li><a class="footer__item-link" href="#">Terms</a></li>
+                    </ul>
+                </div>
+                <div class="footer__item footer__item-contact">
+                    <h2 class="footer__item-title">Contact us</h2>
+                    <form class="footer__item-form" action="index.html" method="post">
+                        <input class="footer__item-form-email" type="email" name="email" placeholder="Your Email Address....">
+                        <textarea class="footer__item-form-msg" name="message" placeholder="Your Message...."></textarea>
+                        <button class="footer__item-form-submit" type="submit"><i class="fas fa-envelope"></i> Send</button>
                     </form>
-
                 </div>
-            </div>
-
-            <div class="footer-bottom">
-                powered by <a href="https://github.com/ScorchingShade/Pinch">ScorchingShade</a>
-
             </div>
         </div>
-    </div>
+        </div>
+        <div class="footer__container footer__copy">
+            <p>powered by <a href="https://github.com/ScorchingShade/Pinch">ScorchingShade</a></p>
+        </div>
+    </footer>
 ```
 
 <br>
-Understanding all the elements of this footer is easy too! 
+Understanding the **footer** elements
 <br>
-The theme of the footer can be controlled using the class "footer-angel" or "footer-dracula".<br>
-The footer has two main areas. **The Bottom area** and **The Content Area**.<br>
-You would want to start off by defining these simply using the classes "footer-bottom" and "footer-content" in two separate divs.<br>
-The bottom area can simply include links, copyright info etc for the developer/author.<br>
-The content area is where everything else goes. For a basic design, you can leave this as is specifying some footer text.<br>
-<br>
+The theme of the footer can be switched using the **Change Theme of Footer** button. The code for the button is `<button class="footer__change-btn">`.<br>
+The footer contains 3 columns, contained inside `<div class="footer__items">`:
+    - `<div class="footer__item footer__item-about">` contains contact info and social media links
+    - `<div class="footer__item footer__item-links">` contains the website's quick links
+    - `<div class="footer__item footer__item-contact">` contains the contact form
 
-The content area is further divided into three horizontal grids of different classes and types of data.
-- Section about
-- Section links
-- Section contact form
 <br>
 <br>
 
-**Section about** - This section contains info like social links, email, contact info, description, title etc. You can use classes as shown in the example above to set these.The About section is aligned to the left and is perfect to showcase import links for contact.<br>
+**About section**
 ```
-                 <div class="footer-section about">
-                    <h1 class="logo-text"><span>Pinch</span>Footer</h1>
-
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <div class="footer__item footer__item-about">
+                    <h2 class="footer__item-title"><span class="footer__item-subtitle">Pinch</span>Footer</h2>
+                    <p class="footer__item-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut semper magna, in iaculis arcu. Nunc mollis metus nibh, vel egestas ligula facilisis vehicula.
                     </p>
-                    <div class="contact">
-
-                        <span><i class="fas fa-phone"></i>&nbsp; 123-456-789</span><br>
-                        <span><i class="fas fa-envelope"></i>&nbsp; ankushors789@gmail.com</span>
-
-                  </div>
-                  <div class="socials">
-
-                        <a href=""><i class="fab fa-facebook"></i></a>
-                        <a href=""><i class="fab fa-instagram"></i></a>
-                        <a href=""><i class="fab fa-twitter"></i></a>
-                        <a href=""><i class="fab fa-youtube"></i></a>
-
-                    </div>
-                </div>
-```
-<br>
-The class "about" with class "footer-section" creates the about section. Use the above shown h1 tag styling to generate a cool Title for footer in about.<br>
-The class "contact" with class "footer-section" creates a styling for your fab-icon spans of contact and email as shown.<br>
-The class "socials" allows you to set engaging icons using font-awesome.<br><br>
-
-
-**Section links** -
-As the name suggests this section is all about providing important links to your website! <br>
-```
-         <div class="footer-section links">
-
-                    <h2>Quick Links</h2>
-                    <br>
-                    <ul>
-                        <a href="#">
-                            <li>Events</li>
-                        </a>
-                        <a href="#">
-                            <li>Team</li>
-                        </a>
-                        <a href="#">
-                            <li>Mentors</li>
-                        </a>
-                        <a href="#">
-                            <li>Gallery</li>
-                        </a>
-                        <a href="#">
-                            <li>Terms</li>
-                        </a>
+                    <ul class="footer__list">
+                        <li><a class="footer_list-link" href="tel:123-456-789"><i class="fas fa-phone"></i> 123-456-789</a></li>
+                        <li><a class="footer_list-link" href="mailto:ankushors789@gmail.com"><i class="fas fa-envelope"></i> ankushors789@gmail.com</a></li>
+                        <li class="footer_list-link">
+                            <ul class="footer__list footer__sublist">
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </li>
                     </ul>
-
                 </div>
 ```
 <br>
-The class "links" along with class "footer-section" takes care of all your links. That's it! Its all you need! Use it as shown in the example above!<br>
+The **About** section is defined by the class `footer__item-about`.
+The paragraph element with the class `footer__item-text` contains the website description.
+The unordered list with the class `footer__list` contains the phone number and email info both defined by the `footer_list-link` classes.
+The unordered list with the class `footer__sublist` is nested inside the previous list, and contains the links for Facebook, Instagram, Twitter, and YouTube. Each item has a class of `footer__sublist-link`.
+
+**Quick Links section**
+```
+                <div class="footer__item footer__item-links">
+                    <h2 class="footer__item-title">Quick Links</h2>
+                    <ul class="footer__item-list">
+                        <li><a class="footer__item-link" href="#">Events</a></li>
+                        <li><a class="footer__item-link" href="#">Team</a></li>
+                        <li><a class="footer__item-link" href="#">Mentors</a></li>
+                        <li><a class="footer__item-link" href="#">Gallery</a></li>
+                        <li><a class="footer__item-link" href="#">Terms</a></li>
+                    </ul>
+                </div>
+```
+<br>
+The **Quick Links** section is contained inside the `footer__item-links` class. Add or remove the `<li class="footer__item-link">` items as you see fit!
 <br>
 
-**Section contact form** -
-This section is aligned to the extreme right and provides a simple form to send a message to the author/developer.<br>
+**Contact Form section**
+This section is aligned to the right and provides a simple form to send a message to the author/developer.<br>
 <br>
 ```
- <div class="footer-section contact-form">
-
-                    <h2>Contact us</h2>
-                    <br>
-                    <form action="index.html" method="post">
-                        <input type="email" name="email" class="text-input contact-input disp-xs" placeholder="Your Email Address....."><br><br>
-                        <textarea name="message" class="text-input contact-input disp-xs" placeholder="Your Message...."></textarea><br><br>
-                        <button type="submit" class="btn-nav contact-btn">
-                        <i class="fas fa-envelope"></i>
-                        Send</button>
-
+                <div class="footer__item footer__item-contact">
+                    <h2 class="footer__item-title">Contact us</h2>
+                    <form class="footer__item-form" action="index.html" method="post">
+                        <input class="footer__item-form-email" type="email" name="email" placeholder="Your Email Address....">
+                        <textarea class="footer__item-form-msg" name="message" placeholder="Your Message...."></textarea>
+                        <button class="footer__item-form-submit" type="submit"><i class="fas fa-envelope"></i> Send</button>
                     </form>
-
                 </div>
 ```
-The key classes to note here are "contact-form", "contact-input" and "text-input".<br>
-These when used in a form like the given example can help you create the perfect dynamic form for your footer!<br><br>
+
+Note that all 3 columns are defined by `footer_item` class.
+The footer is fully responsive, and the 3 footer elements collapse into mobile-friendly columns when viewed from a mobile device.
 <br>
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_dracula_footer.jpg"></p>
 <br>
