@@ -422,14 +422,14 @@ The **Quick Links** section is the middle column contained inside the `footer__i
 ### Contact Us section
 
 ```
-                <div class="footer__item footer__item-contact">
-                    <h2 class="footer__item-title">Contact us</h2>
-                    <form class="footer__item-form" action="index.html" method="post">
-                        <input class="footer__item-form-email" type="email" name="email" placeholder="Your Email Address....">
-                        <textarea class="footer__item-form-msg" name="message" placeholder="Your Message...."></textarea>
-                        <button class="footer__item-form-submit" type="submit"><i class="fas fa-envelope"></i> Send</button>
-                    </form>
-                </div>
+<div class="footer__item footer__item-contact">
+    <h2 class="footer__item-title">Contact us</h2>
+    <form class="footer__item-form" action="index.html" method="post">
+        <input class="footer__item-form-email" type="email" name="email" placeholder="Your Email Address....">
+        <textarea class="footer__item-form-msg" name="message" placeholder="Your Message...."></textarea>
+        <button class="footer__item-form-submit" type="submit"><i class="fas fa-envelope"></i> Send</button>
+    </form>
+</div>
 ```
 <br>
 
