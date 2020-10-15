@@ -352,7 +352,6 @@ The theme of the footer can be switched using the **Change Theme of Footer** but
 
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_dracula_footer.jpg"></p>
 <br>
-<br>
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_angel_footer.jpg"></p>
 <br>
 
@@ -364,7 +363,7 @@ The footer contains 3 columns, contained inside `<div class="footer__items">`:
 <div class="footer__item footer__item-contact"> // contains the contact form
 ```
 
-Note that all 3 columns are defined by `footer_item` class.
+Note that all 3 columns are defined by `footer_item` class. The footer is fully responsive, and the 3 footer elements collapse into mobile-friendly columns when viewed from a mobile device.
 
 <br>
 <br>
@@ -434,8 +433,7 @@ The **Quick Links** section is the middle column contained inside the `footer__i
 ```
 <br>
 
-**Contact Us** section is aligned to the right and provides a simple form to send a message to the author/developer.<br>
-The footer is fully responsive, and the 3 footer elements collapse into mobile-friendly columns when viewed from a mobile device.
+**Contact Us** section is aligned to the right and provides a simple form to send a message to the author/developer.
 
 <br>
 <br>
