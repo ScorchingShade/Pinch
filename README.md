@@ -286,7 +286,7 @@ Angel
 
 
 ## The Angel and Dracula Elements - Footer
-A good footer contains all the necessary contact info, social media links, and oftentimes a message form. PinchX provides you with a complete template to create a **comprehensive footer from scratch.**
+A good footer contains all the necessary contact info, social media links, and often a message form. PinchX provides you with a complete template to create a **comprehensive footer from scratch.**
 
 ```
     <div class="footer__change-theme">
@@ -350,9 +350,9 @@ Understanding the **footer** elements
 <br>
 The theme of the footer can be switched using the **Change Theme of Footer** button. The code for the button is `<button class="footer__change-btn">`.<br>
 The footer contains 3 columns, contained inside `<div class="footer__items">`:
-    - `<div class="footer__item footer__item-about">` contains contact info and social media links
-    - `<div class="footer__item footer__item-links">` contains the website's quick links
-    - `<div class="footer__item footer__item-contact">` contains the contact form
+    - ```<div class="footer__item footer__item-about">``` contains contact info and social media links
+    - ```<div class="footer__item footer__item-links">``` contains the website's quick links
+    - ```<div class="footer__item footer__item-contact">``` contains the contact form
 
 <br>
 <br>
@@ -379,7 +379,7 @@ The footer contains 3 columns, contained inside `<div class="footer__items">`:
                 </div>
 ```
 <br>
-The **About** section is defined by the class `footer__item-about`.
+The **About** section is defined by the class ```footer__item-about```.
 The paragraph element with the class `footer__item-text` contains the website description.
 The unordered list with the class `footer__list` contains the phone number and email info both defined by the `footer_list-link` classes.
 The unordered list with the class `footer__sublist` is nested inside the previous list, and contains the links for Facebook, Instagram, Twitter, and YouTube. Each item has a class of `footer__sublist-link`.
