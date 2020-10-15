@@ -345,14 +345,14 @@ A good footer contains all the necessary contact info, social media links, and o
     </footer>
 ```
 
-<br>
+
 Understanding the **footer** elements
-<br>
+
 The theme of the footer can be switched using the **Change Theme of Footer** button. The code for the button is `<button class="footer__change-btn">`.<br>
 The footer contains 3 columns, contained inside `<div class="footer__items">`:
-    - ```<div class="footer__item footer__item-about">``` contains contact info and social media links
-    - ```<div class="footer__item footer__item-links">``` contains the website's quick links
-    - ```<div class="footer__item footer__item-contact">``` contains the contact form
+    - <div class="footer__item footer__item-about"> contains contact info and social media links
+    - <div class="footer__item footer__item-links"> contains the website's quick links
+    - <div class="footer__item footer__item-contact"> contains the contact form
 
 <br>
 <br>
