@@ -348,7 +348,14 @@ A good footer contains all the necessary contact info, social media links, and o
 
 Understanding the **footer** elements
 
-The theme of the footer can be switched using the **Change Theme of Footer** button. The code for the button is `<button class="footer__change-btn">`.<br>
+The theme of the footer can be switched using the **Change Theme of Footer** button. The code for the button is `<button class="footer__change-btn">`. Note the differences in the 2 themes in the screenshots below:<br>
+
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_dracula_footer.jpg"></p>
+<br>
+<br>
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_angel_footer.jpg"></p>
+<br>
+
 The footer contains 3 columns, contained inside `<div class="footer__items">`:
 
 ```
@@ -429,12 +436,7 @@ The **Quick Links** section is the middle column contained inside the `footer__i
 
 **Contact Us** section is aligned to the right and provides a simple form to send a message to the author/developer.<br>
 The footer is fully responsive, and the 3 footer elements collapse into mobile-friendly columns when viewed from a mobile device.
-<br>
-<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_dracula_footer.jpg"></p>
-<br>
-<br>
-<br>
-<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_angel_footer.jpg"></p>
+
 <br>
 <br>
 
