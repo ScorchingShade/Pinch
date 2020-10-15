@@ -289,60 +289,60 @@ Angel
 A good footer contains all the necessary contact info, social media links, and often a message form. PinchX provides you with a complete template to create a **comprehensive footer from scratch.**
 
 ```
-    <div class="footer__change-theme">
-        <h1 class="footer__change-title">Footer</h1>
-        <p class="footer__change-text">Simple and elegant with themes that match your Navbar!</p>
-        <button class="footer__change-btn">Change Theme of Footer</button>
-    </div>
-    <footer class="footer">
-        <div class="footer__container">
+<div class="footer__change-theme">
+    <h1 class="footer__change-title">Footer</h1>
+    <p class="footer__change-text">Simple and elegant with themes that match your Navbar!</p>
+    <button class="footer__change-btn">Change Theme of Footer</button>
+</div>
+<footer class="footer">
+    <div class="footer__container">
 
-        </div>
-        <div class="footer__container">
-            <div class="footer__items">
-                <div class="footer__item footer__item-about">
-                    <h2 class="footer__item-title"><span class="footer__item-subtitle">Pinch</span>Footer</h2>
-                    <p class="footer__item-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut semper magna, in iaculis arcu. Nunc mollis metus nibh, vel egestas ligula facilisis vehicula.
-                    </p>
-                    <ul class="footer__list">
-                        <li><a class="footer_list-link" href="tel:123-456-789"><i class="fas fa-phone"></i> 123-456-789</a></li>
-                        <li><a class="footer_list-link" href="mailto:ankushors789@gmail.com"><i class="fas fa-envelope"></i> ankushors789@gmail.com</a></li>
-                        <li class="footer_list-link">
-                            <ul class="footer__list footer__sublist">
-                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-youtube"></i></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__item footer__item-links">
-                    <h2 class="footer__item-title">Quick Links</h2>
-                    <ul class="footer__item-list">
-                        <li><a class="footer__item-link" href="#">Events</a></li>
-                        <li><a class="footer__item-link" href="#">Team</a></li>
-                        <li><a class="footer__item-link" href="#">Mentors</a></li>
-                        <li><a class="footer__item-link" href="#">Gallery</a></li>
-                        <li><a class="footer__item-link" href="#">Terms</a></li>
-                    </ul>
-                </div>
-                <div class="footer__item footer__item-contact">
-                    <h2 class="footer__item-title">Contact us</h2>
-                    <form class="footer__item-form" action="index.html" method="post">
-                        <input class="footer__item-form-email" type="email" name="email" placeholder="Your Email Address....">
-                        <textarea class="footer__item-form-msg" name="message" placeholder="Your Message...."></textarea>
-                        <button class="footer__item-form-submit" type="submit"><i class="fas fa-envelope"></i> Send</button>
-                    </form>
-                </div>
+    </div>
+    <div class="footer__container">
+        <div class="footer__items">
+            <div class="footer__item footer__item-about">
+                <h2 class="footer__item-title"><span class="footer__item-subtitle">Pinch</span>Footer</h2>
+                <p class="footer__item-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut semper magna, in iaculis arcu. Nunc mollis metus nibh, vel egestas ligula facilisis vehicula.
+                </p>
+                <ul class="footer__list">
+                    <li><a class="footer_list-link" href="tel:123-456-789"><i class="fas fa-phone"></i> 123-456-789</a></li>
+                    <li><a class="footer_list-link" href="mailto:ankushors789@gmail.com"><i class="fas fa-envelope"></i> ankushors789@gmail.com</a></li>
+                    <li class="footer_list-link">
+                        <ul class="footer__list footer__sublist">
+                            <li><a class="footer__sublist-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a class="footer__sublist-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="footer__sublist-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="footer__sublist-link" href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__item footer__item-links">
+                <h2 class="footer__item-title">Quick Links</h2>
+                <ul class="footer__item-list">
+                    <li><a class="footer__item-link" href="#">Events</a></li>
+                    <li><a class="footer__item-link" href="#">Team</a></li>
+                    <li><a class="footer__item-link" href="#">Mentors</a></li>
+                    <li><a class="footer__item-link" href="#">Gallery</a></li>
+                    <li><a class="footer__item-link" href="#">Terms</a></li>
+                </ul>
+            </div>
+            <div class="footer__item footer__item-contact">
+                <h2 class="footer__item-title">Contact us</h2>
+                <form class="footer__item-form" action="index.html" method="post">
+                    <input class="footer__item-form-email" type="email" name="email" placeholder="Your Email Address....">
+                    <textarea class="footer__item-form-msg" name="message" placeholder="Your Message...."></textarea>
+                    <button class="footer__item-form-submit" type="submit"><i class="fas fa-envelope"></i> Send</button>
+                </form>
             </div>
         </div>
-        </div>
-        <div class="footer__container footer__copy">
-            <p>powered by <a href="https://github.com/ScorchingShade/Pinch">ScorchingShade</a></p>
-        </div>
-    </footer>
+    </div>
+    </div>
+    <div class="footer__container footer__copy">
+        <p>powered by <a href="https://github.com/ScorchingShade/Pinch">ScorchingShade</a></p>
+    </div>
+</footer>
 ```
 <br>
 
@@ -351,11 +351,11 @@ Understanding the **footer** elements
 The theme of the footer can be switched using the **Change Theme of Footer** button. The code for the button is `<button class="footer__change-btn">`.<br>
 The footer contains 3 columns, contained inside `<div class="footer__items">`:
 
-    `<div class="footer__item footer__item-about">` // contains contact info and social media links
-    `<div class="footer__item footer__item-links">` // contains the website's quick links
-    `<div class="footer__item footer__item-contact">` // contains the contact form
-
-<br>
+```
+<div class="footer__item footer__item-about"> // contains contact info and social media links
+<div class="footer__item footer__item-links"> // contains the website's quick links
+<div class="footer__item footer__item-contact"> // contains the contact form
+```
 
 Note that all 3 columns are defined by `footer_item` class.
 
@@ -364,24 +364,24 @@ Note that all 3 columns are defined by `footer_item` class.
 
 **About section**
 ```
-                <div class="footer__item footer__item-about">
-                    <h2 class="footer__item-title"><span class="footer__item-subtitle">Pinch</span>Footer</h2>
-                    <p class="footer__item-text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut semper magna, in iaculis arcu. Nunc mollis metus nibh, vel egestas ligula facilisis vehicula.
-                    </p>
-                    <ul class="footer__list">
-                        <li><a class="footer_list-link" href="tel:123-456-789"><i class="fas fa-phone"></i> 123-456-789</a></li>
-                        <li><a class="footer_list-link" href="mailto:ankushors789@gmail.com"><i class="fas fa-envelope"></i> ankushors789@gmail.com</a></li>
-                        <li class="footer_list-link">
-                            <ul class="footer__list footer__sublist">
-                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-facebook"></i></a></li>
-                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-instagram"></i></a></li>
-                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a class="footer__sublist-link" href="#"><i class="fab fa-youtube"></i></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
+<div class="footer__item footer__item-about">
+    <h2 class="footer__item-title"><span class="footer__item-subtitle">Pinch</span>Footer</h2>
+    <p class="footer__item-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut semper magna, in iaculis arcu. Nunc mollis metus nibh, vel egestas ligula facilisis vehicula.
+    </p>
+    <ul class="footer__list">
+        <li><a class="footer_list-link" href="tel:123-456-789"><i class="fas fa-phone"></i> 123-456-789</a></li>
+        <li><a class="footer_list-link" href="mailto:ankushors789@gmail.com"><i class="fas fa-envelope"></i> ankushors789@gmail.com</a></li>
+        <li class="footer_list-link">
+            <ul class="footer__list footer__sublist">
+                <li><a class="footer__sublist-link" href="#"><i class="fab fa-facebook"></i></a></li>
+                <li><a class="footer__sublist-link" href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a class="footer__sublist-link" href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a class="footer__sublist-link" href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
 ```
 
 <br>
@@ -396,16 +396,16 @@ The unordered list with the class `footer__sublist` is nested inside the previou
 **Quick Links section**
 
 ```
-                <div class="footer__item footer__item-links">
-                    <h2 class="footer__item-title">Quick Links</h2>
-                    <ul class="footer__item-list">
-                        <li><a class="footer__item-link" href="#">Events</a></li>
-                        <li><a class="footer__item-link" href="#">Team</a></li>
-                        <li><a class="footer__item-link" href="#">Mentors</a></li>
-                        <li><a class="footer__item-link" href="#">Gallery</a></li>
-                        <li><a class="footer__item-link" href="#">Terms</a></li>
-                    </ul>
-                </div>
+<div class="footer__item footer__item-links">
+    <h2 class="footer__item-title">Quick Links</h2>
+    <ul class="footer__item-list">
+        <li><a class="footer__item-link" href="#">Events</a></li>
+        <li><a class="footer__item-link" href="#">Team</a></li>
+        <li><a class="footer__item-link" href="#">Mentors</a></li>
+        <li><a class="footer__item-link" href="#">Gallery</a></li>
+        <li><a class="footer__item-link" href="#">Terms</a></li>
+    </ul>
+</div>
 ```
 <br>
 
