@@ -351,9 +351,13 @@ Understanding the **footer** elements
 The theme of the footer can be switched using the **Change Theme of Footer** button. The code for the button is `<button class="footer__change-btn">`.<br>
 The footer contains 3 columns, contained inside `<div class="footer__items">`:
 
-    - `<div class="footer__item footer__item-about">` // contains contact info and social media links
-    - `<div class="footer__item footer__item-links">` // contains the website's quick links
-    - `<div class="footer__item footer__item-contact">` // contains the contact form
+    `<div class="footer__item footer__item-about">` // contains contact info and social media links
+    `<div class="footer__item footer__item-links">` // contains the website's quick links
+    `<div class="footer__item footer__item-contact">` // contains the contact form
+
+<br>
+
+Note that all 3 columns are defined by `footer_item` class.
 
 <br>
 <br>
@@ -380,11 +384,11 @@ The footer contains 3 columns, contained inside `<div class="footer__items">`:
                 </div>
 ```
 
-<br><br>
+<br>
 
-The **About** section is defined by the class `footer__item-about`.
-The paragraph element with the class `footer__item-text` contains the website description.
-The unordered list with the class `footer__list` contains the phone number and email info both defined by the `footer_list-link` classes.
+The **About** section is defined by the class `footer__item-about`.<br>
+The paragraph element with the class `footer__item-text` contains the website description.<br>
+The unordered list with the class `footer__list` contains the phone number and email info both defined by the `footer_list-link` classes.<br>
 The unordered list with the class `footer__sublist` is nested inside the previous list, and contains the links for Facebook, Instagram, Twitter, and YouTube. Each item has a class of `footer__sublist-link`.
 
 <br><br>
@@ -405,14 +409,11 @@ The unordered list with the class `footer__sublist` is nested inside the previou
 ```
 <br>
 
-The **Quick Links** section is contained inside the `footer__item-links` class. Add or remove the `<li class="footer__item-link">` items as you see fit!
+The **Quick Links** section is the middle column contained inside the `footer__item-links` class. Just add or remove the `<li class="footer__item-link">` items as you see fit!
 
 <br><br>
 
-**Contact Form section**
-This section is aligned to the right and provides a simple form to send a message to the author/developer.<br>
-
-<br>
+**Contact Us section**
 
 ```
                 <div class="footer__item footer__item-contact">
@@ -424,8 +425,9 @@ This section is aligned to the right and provides a simple form to send a messag
                     </form>
                 </div>
 ```
+<br>
 
-Note that all 3 columns are defined by `footer_item` class.
+**Contact Us** section is aligned to the right and provides a simple form to send a message to the author/developer.<br>
 The footer is fully responsive, and the 3 footer elements collapse into mobile-friendly columns when viewed from a mobile device.
 <br>
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_dracula_footer.jpg"></p>
