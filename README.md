@@ -11,7 +11,7 @@
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
 ## Basic Overview - Version 1.03
-- Update -> Footer is now Responsive
+- Update -> Added responsive contact button for nav
 <br>
 No need to code your own css mini-library to get-rid of hefty frameworks like bootstrap whenever starting a small project!
 <br>
