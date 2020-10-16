@@ -576,6 +576,17 @@ header {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  .btn-nav-responsive {
+    display: block;
+    padding: 9px 25px;
+    background-color: #1d49a7;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    z-index: 1;
+  }
   .btn-nav {
     display: none;
     padding: 9px 25px;
