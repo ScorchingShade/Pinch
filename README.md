@@ -11,15 +11,17 @@
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 
 ## Basic Overview - Version 1.03
+
 - Update -> Added responsive contact button for nav
-<br>
-No need to code your own css mini-library to get-rid of hefty frameworks like bootstrap whenever starting a small project!
-<br>
-PinchX takes care of your basic web design building a beautiful simplistic design in minutes!
-<br>
-Written in SCSS/SASS, the generated css is comprehensive, simple and minimal!
+  <br>
+  No need to code your own css mini-library to get-rid of hefty frameworks like bootstrap whenever starting a small project!
+  <br>
+  PinchX takes care of your basic web design building a beautiful simplistic design in minutes!
+  <br>
+  Written in SCSS/SASS, the generated css is comprehensive, simple and minimal!
 
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_main.jpg"></p>
+
 <br>
 <br>
 
@@ -30,11 +32,13 @@ Live example [here](https://scorchingshade.github.io/Pinch/).
 <br>
 
 ## Upcoming and bugs
+
 Responsive support for navbar and footer coming soon. The site is best viewed in Google-Chrome on pc.
 <br>
 <br>
 
 ## Getting Started
+
 Just clone the repo and copy the main.css file in your project folder.<br>
 Further use the meta linking to link the stylesheet to your project as - <br>
 
@@ -50,17 +54,22 @@ To use the complete functionality of PinchX, it is recommended to also load font
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js" integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg==" crossorigin="anonymous"></script>
 ```
+
 <br>
 <br>
+
 <h1 align="center"> Diving into PinchX </h1>
+
 <br>
 <br>
 
 
 ### An All New Grid System
+
 PinchX introduces a 15 way grid sytem to have greater flexibility when designing your web-page
 <br>
 Using class "col-x", where x is numbered from 1-15 you can create a grid with 15 valid points.
+
 ```html
 <div class="row">
             <div class="col-15">15</div>
@@ -91,14 +100,17 @@ Using class "col-x", where x is numbered from 1-15 you can create a grid with 15
 
 
 ## Beautiful Engaging Cards
+
 PinchX gives three beautiful cards to choose from.
+
 - Basic Card
 - Fluid Card
 - Product Card
-<br>
-With PinchX, you can quickly create a card that suits your needs!<br>
+  <br>
+  With PinchX, you can quickly create a card that suits your needs!<br>
 
 ### Basic Card
+
 This simplistic card is perfect for displaying your data in a cool minimalistic way!
 <br>
 
@@ -119,6 +131,7 @@ This simplistic card is perfect for displaying your data in a cool minimalistic 
             </div>
 
 ```
+
 <br>
 Set your class to "card-basic" to start using a basic card. <br>
 The class "card-title" provides a bold title to the card.<br>
@@ -127,10 +140,13 @@ I recommend using "card-body" to make sure you get a defined, non overflowing, c
 The class "card-footer" allows to set a detailed footer for the basic card.<br>
 
 <br>
+
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_basic_card.jpg"></p>
+
 <br>
 
 ### Fluid Card
+
 The fluid card works similar to the basic card, with just the difference that it can occupy the width of the parent element its placed in!
 <br>
 
@@ -150,13 +166,17 @@ The fluid card works similar to the basic card, with just the difference that it
             </div>
         </div>
 ```
+
 <br>
 Use the class "card-fluid" to use the Fluid Card.
 <br>
+
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_fluid_card.jpg"></p>
+
 <br>
 
 ### Product Card
+
 The product card is a special card that helps in creating a cool new unique way of diplaying elements as a showcase.
 
 ```
@@ -176,6 +196,7 @@ The product card is a special card that helps in creating a cool new unique way 
                 </div>
             </div>
 ```
+
 The class "card" helps you use the Product card.<br>
 You can also set the image for the card using class "card-image" and then providing an image as a source.<br>
 The class "card-prime" is optional to use, but when used in a div, provides a unique diagonal background object to style the card.<br>
@@ -183,12 +204,15 @@ The class "card-info" plays the role of defining the card body elements.<br>
 The class "card-icon" can be used to set a small preferably, png icon to the body.<br>
 The class "card-name" give the information to about the product card's descriptive name.<br>
 <br>
+
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_product_card.jpg"></p>
+
 <br>
 
 ---
 
 ## The Angel and Dracula Elements - Navbar
+
 PinchX provides two theme options - **Dracula** and **Angel**.<br><br><br>
 Checkout the simplest way to build a navbar, with the PinchX Dracula and Angel themed navbar!
 
@@ -213,7 +237,9 @@ Checkout the simplest way to build a navbar, with the PinchX Dracula and Angel t
 
 <br>
 <br>
+
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_navs.jpg"></p>
+
 <br>
 You can change the theme of the navbar using the class "nav-dracula" or "nav-angel" in the parent div.<br>
 To specify a logo use the class "logo", supports images currently. <br>
@@ -248,6 +274,7 @@ Dracula
             </header>
         </div>
 ```
+
 <br>
 <br>
 
@@ -273,19 +300,14 @@ Angel
             </header>
         </div>
 ```
-<br>
-
 
 <br>
-<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_responsive_nav_dracula.jpg"></p>
-<br>
-<br>
-<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_responsive_nav_angel.jpg"></p>
 <br>
 
 
 
 ## The Angel and Dracula Elements - Footer
+
 A good footer contains all the necessary contact info, social media links, and often a message form. PinchX provides you with a complete template to create a **comprehensive footer from scratch.**
 
 ```
@@ -344,15 +366,22 @@ A good footer contains all the necessary contact info, social media links, and o
     </div>
 </footer>
 ```
+
 <br>
 
-### Understanding the footer elements
+### The theme and the elements
 
 The theme of the footer can be switched using the **Change Theme of Footer** button. The code for the button is `<button class="footer__change-btn">`. Note the differences in the 2 themes in the screenshots below:<br>
 
-<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_dracula_footer.jpg"></p>
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_responsive_nav_angel.jpg"></p>
+
 <br>
-<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_angel_footer.jpg"></p>
+
+<p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_responsive_nav_dracula.jpg"></p>
+<br>
+
+You may manually change the default footer theme from light to dark by changing `<footer class="footer">` to `<footer class="footer__dark">`. You may also delete the theme toggle button by deleting or commenting out `<button class="footer__change-btn">Change Theme of Footer</button>`.
+
 <br>
 
 The footer contains 3 columns, contained inside `<div class="footer__items">`:
@@ -369,6 +398,7 @@ Note that all 3 columns are defined by `footer_item` class. The footer is fully 
 <br>
 
 ### About section
+
 ```
 <div class="footer__item footer__item-about">
     <h2 class="footer__item-title"><span class="footer__item-subtitle">Pinch</span>Footer</h2>
@@ -413,6 +443,7 @@ The unordered list with the class `footer__sublist` is nested inside the previou
     </ul>
 </div>
 ```
+
 <br>
 
 The **Quick Links** section is the middle column contained inside the `footer__item-links` class. Just add or remove the `<li class="footer__item-link">` items as you see fit!
@@ -431,6 +462,7 @@ The **Quick Links** section is the middle column contained inside the `footer__i
     </form>
 </div>
 ```
+
 <br>
 
 **Contact Us** section is aligned to the right and provides a simple form to send a message to the author/developer.
@@ -439,9 +471,11 @@ The **Quick Links** section is the middle column contained inside the `footer__i
 <br>
 
 ## Futuristic Typography, a new way to write
+
 There are 5 different classes providing you a great new way to define your text! Simple and futuristic, the typography is sure to give a pleasing appeal to your page!
 <br>
 <br>
+
 ```
         <p class="disp-xl">Extra Large Text Display</p>
         <p class="disp-lg">Large Text Display</p>
@@ -449,12 +483,16 @@ There are 5 different classes providing you a great new way to define your text!
         <p class="disp-sm">Small Text Display</p>
         <p class="disp-xs">Extra Small Text Display</p>
 ```
+
 The classes are "disp-xl", "dis-lg", "disp-md", "disp-sm" and "disp-xs" which give enough options to diplay different kinds of text!<br>
 <br>
+
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_typography.jpg"></p>
+
 <br>
 
 ## Author
+
 <h1 align="center">Hi 👋, I'm Ankush</h1>
 <h3 align="center">A geek , a coder, a boxer, an explorer</h3>
 
@@ -484,24 +522,20 @@ The classes are "disp-xl", "dis-lg", "disp-md", "disp-sm" and "disp-xs" which gi
 
 
 
+
 ## License
-```
-Copyright (C) 2020 Ankush Sharma @ AINC, creating code
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the MIT License as it is published.
+*Copyright (C) 2020 Ankush Sharma @ AINC, creating code*
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-MIT License for more details.
+*Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:*
 
-You should have received a copy of the Mit License
-along with this program.  
-```
+*The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.*
+
+*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
 
 <br>
 
 
 ## Shout-out
+
 A Huge shout out to Kevin Powell for all his amazing SCSS tutorials. Do check him out on YouTube!
