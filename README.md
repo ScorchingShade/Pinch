@@ -378,10 +378,12 @@ The theme of the footer can be switched using the **Change Theme of Footer** but
 <br>
 
 <p align="center"><img src="https://github.com/ScorchingShade/Pinch/blob/master/img/pinch_responsive_nav_dracula.jpg"></p>
+<br>
+
+You may manually change the default footer theme from light to dark by changing `<footer class="footer">` to `<footer class="footer__dark">`. You may also delete the theme toggle button by deleting or commenting out `<button class="footer__change-btn">Change Theme of Footer</button>`.
 
 <br>
-You may manually change the default footer theme from light to dark by changing `<footer class="footer">` to `<footer class="footer__dark">`. You may also delete the theme toggle button by deleting or commenting out `<button class="footer__change-btn">Change Theme of Footer</button>`.
-<br><br>
+
 The footer contains 3 columns, contained inside `<div class="footer__items">`:
 
 ```
